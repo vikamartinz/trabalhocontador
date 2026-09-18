@@ -42,7 +42,7 @@ button {
   font-family: inherit;
 }
 
-/* ---------- shared chrome (logo / social rail / menu) ---------- */
+
 
 
 .logo {
@@ -57,7 +57,7 @@ button {
   display: block;
 }
 
-/* Ajuste de responsividade para telas menores */
+/* responsividade telas menores*/
 
 @media (max-width: 640px) {
   .logo {
@@ -115,7 +115,7 @@ button {
   background: none;
 }
 
-/* generic small nav pill used to link between the 3 pages */
+/* nav para linkar 3 pg */
 
 .page-nav {
   position: absolute;
@@ -158,9 +158,9 @@ button {
   color: #fff;
 }
 
-/* ==================================================================
-   HOME / COUNTDOWN PAGE
-   ================================================================== */
+/*
+   index contador
+   */
 
 .countdown-main {
   position: relative;
@@ -234,7 +234,7 @@ button {
   text-transform: uppercase;
 }
 
-/* split-flap airport-board style digits */
+/* split-flap  */
 
 .flap-board {
   display: flex;
@@ -385,10 +385,9 @@ button {
   }
 }
 
-/* ==================================================================
-   LANDING PAGE (SWIPER)
-   ALTERAÇÕES SOMENTE NESTA PÁGINA
-   ================================================================== */
+/* 
+  swiper da landing
+ */
 
 main.landing {
   width: 100%;
@@ -399,7 +398,7 @@ main.landing {
   isolation: isolate;
 }
 
-/* GIF DE FUNDO */
+/* GIF fundo*/
 
 main.landing::before {
   content: "";
@@ -414,7 +413,7 @@ main.landing::before {
   z-index: -3;
 }
 
-/* CAMADA ESCURA SOBRE O GIF */
+/* blur sob gif */
 
 main.landing::after {
   content: "";
@@ -445,7 +444,7 @@ main.landing .swiper-slide {
   overflow: hidden;
 }
 
-/* Remove os fundos coloridos originais somente da Landing */
+
 
 main.landing .yellow,
 main.landing .blue,
@@ -473,7 +472,7 @@ main.landing .black {
   pointer-events: none;
 }
 
-/* Conteúdo da Landing */
+/* landing */
 
 main.landing .content {
   width: 100%;
@@ -488,7 +487,7 @@ main.landing .content {
   padding: 120px 24px 60px;
 }
 
-/* IMAGEM DO BOEING */
+/*img boeing*/
 
 main.landing .content .image {
   height: 45%;
@@ -505,7 +504,7 @@ main.landing .content .image img {
   filter: drop-shadow(0 20px 30px rgba(0, 0, 0, 0.45));
 }
 
-/* TÍTULO */
+/*titu */
 
 main.landing .title {
   position: relative;
@@ -537,7 +536,7 @@ main.landing .small {
   text-align: center;
 }
 
-/* ESPECIFICAÇÕES */
+/* ESP*/
 
 main.landing .specs {
   position: relative;
@@ -553,7 +552,7 @@ main.landing .specs {
   z-index: 5;
 }
 
-/* LAYOUT ESPECÍFICO DO SLIDE 1 (BOEING): texto ao lado da imagem, avião menor */
+/* lyt slide 1 */
 
 main.landing .content.boeing-layout {
   flex-direction: row;
@@ -661,13 +660,13 @@ main.landing .specs button:hover {
   transform: translateX(4px);
 }
 
-/* CORES DAS OUTRAS SLIDES */
+
 
 main.landing .blue-c {
   color: var(--cyan) !important;
 }
 
-/* PAGINAÇÃO */
+
 
 main.landing .swiper-pagination {
   position: absolute;
@@ -699,7 +698,7 @@ main.landing .swiper-pagination-bullet-active {
   background: rgba(239, 202, 41, 0.15);
 }
 
-/* LOGO E NAVEGAÇÃO DA LANDING */
+/* LOGO LANDING */
 
 main.landing .logo {
   z-index: 20;
@@ -822,9 +821,9 @@ main.landing .page-nav {
   }
 }
 
-/* ==================================================================
-   CONTACT PAGE
-   ================================================================== */
+/* 
+   Ctt
+   */
 
 main.contact {
   position: relative;
@@ -911,12 +910,7 @@ main.contact {
 
 
 
-.contact-card {
-  background: var(--paper);
-  border-radius: 20px;
-  padding: 36px 32px;
-  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.12);
-}
+
 
 .contact-card h2 {
   font-size: 20px;
@@ -968,7 +962,7 @@ main.contact {
   margin-top: 12px;
   width: 100%;
   padding: 14px;
-  border-radius: 100px;
+ 
   border: 1px solid var(--deep-2);
   background: var(--deep-2);
   color: #fff;
@@ -1007,9 +1001,9 @@ main.contact {
     padding: 28px 22px;
   }
 }
-/* ==========================================================
-   FUNDO GIF - SOMENTE NA LANDING PAGE
-   ========================================================== */
+/* 
+   FUNDO GIF 
+   */
 
 main.landing {
   position: relative;
